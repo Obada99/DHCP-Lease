@@ -1,4 +1,4 @@
-﻿$names=Get-Content "C:\Users\adm_oabazid\Desktop\test\test.txt"
+﻿$names=Get-Content "C:\test\test.txt"
 foreach($name in $names) {
 
 
@@ -15,4 +15,4 @@ Remove-DhcpServerv4Lease -IPAddress $name
 
 }
 }
-$output | Out-File "C:\Users\adm_oabazid\Desktop\test\result.txt"
+$output | Out-File "C:\test\result.txt"
